@@ -1,0 +1,18 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+.DS_Store
+coverage/
+.nyc_output/
+prisma/migrations/
+*.tsbuildinfo
+
+# Local tooling output
+.playwright-mcp/
+
+# Claude Code - personal overrides (not committed)
+CLAUDE.local.md
+.claude/settings.local.json
